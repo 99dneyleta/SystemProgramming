@@ -23,6 +23,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DA0968C61E714FCB00547AC2 /* inputWords.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = inputWords.txt; path = "../../../../../Library/Developer/Xcode/DerivedData/lab1-fmwqokygqauhccbmxvxxenmguunp/Build/Products/Debug/inputWords.txt"; sourceTree = "<group>"; };
+		DA37270B1E7A9BA000269B16 /* output.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = output.txt; path = "../../../../../Library/Developer/Xcode/DerivedData/lab1-fmwqokygqauhccbmxvxxenmguunp/Build/Products/Debug/output.txt"; sourceTree = "<group>"; };
 		DA80B8A71E6C5B310040E670 /* lab1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = lab1; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA80B8AA1E6C5B310040E670 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +59,9 @@
 		DA80B8A91E6C5B310040E670 /* lab1 */ = {
 			isa = PBXGroup;
 			children = (
+				DA37270B1E7A9BA000269B16 /* output.txt */,
 				DA80B8AA1E6C5B310040E670 /* main.cpp */,
+				DA0968C61E714FCB00547AC2 /* inputWords.txt */,
 			);
 			path = lab1;
 			sourceTree = "<group>";
@@ -246,6 +250,7 @@
 				DA80B8B01E6C5B310040E670 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
